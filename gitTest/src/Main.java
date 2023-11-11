@@ -20,15 +20,15 @@ public class Main {
                 String jieMiStr = sc.next();
                 new Decode(jieMiStr);
                 break;
-//            case 3:
-//                System.out.print("请输入要进行判断的密码:");
-//                String panDuanStr = sc.next();
-//                new PasswordStrength(panDuanStr);
-//                break;
-//            case 4:
-//                System.out.print("请输入需要生成密码的长度:");
-//                int length = sc.nextInt();
-//                new getRandomPwd(length);
+            case 3:
+                System.out.print("请输入要进行判断的密码:");
+                String panDuanStr = sc.next();
+                new PasswordStrength(panDuanStr);
+                break;
+            case 4:
+                System.out.print("请输入需要生成密码的长度:");
+                int length = sc.nextInt();
+                new getRandomPwd(length);
             default:
                 break;
         }
